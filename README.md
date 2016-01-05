@@ -1,7 +1,7 @@
 # WP Indexing
 Use with [Apollo](https://github.com/j2made/apollo) for conditional privacy settings.
 
-### Use with Composer
+#### For use with Composer
 ```json
 {
   "type": "package",
