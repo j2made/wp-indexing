@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name:  Config blog_public
-Plugin URI:   http://github.com/emaildano/config-blog-public
+Plugin Name:  wp-indexing
+Plugin URI:   https://github.com/j2made/wp-indexing
 Description:  Configure privacy settings conditionally
-Version:      0.0.0
+Version:      1.0.0
 Author:       Daniel Olson
 Author URI:   http://github.com/emaildano
 License:      MIT License
