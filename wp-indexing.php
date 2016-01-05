@@ -13,8 +13,8 @@ add_action( 'wp_loaded', 'wp_indexing' );
 
 function wp_indexing() {
   if (WP_ENV !== 'production') {
-    add_filter( 'pre_option_blog_public', '__return_false' );
+    update_option( 'blog_public', '1' );
   } else {
-    add_filter( 'pre_option_blog_public', '__return_true' );
+    update_option( 'blog_public', '0' );
   }
 }
