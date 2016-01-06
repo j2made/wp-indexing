@@ -9,12 +9,10 @@ Author URI:   http://github.com/emaildano
 License:      MIT License
 */
 
-add_action( 'wp_loaded', 'wp_indexing' );
+add_action( 'wp_loaded', 'J2made_wp_indexing' );
 
-function wp_indexing() {
+function J2made_wp_indexing() {
   if (WP_ENV !== 'production') {
-    update_option( 'blog_public', '1' );
-  } else {
     update_option( 'blog_public', '0' );
   }
 }
